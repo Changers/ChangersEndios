@@ -1,0 +1,11 @@
+framework module EOFoundation {
+  umbrella header "EOFoundation.h"
+
+  export *
+  module * { export * }
+}
+
+module EOFoundation.Swift {
+    header "EOFoundation-Swift.h"
+    requires objc
+}

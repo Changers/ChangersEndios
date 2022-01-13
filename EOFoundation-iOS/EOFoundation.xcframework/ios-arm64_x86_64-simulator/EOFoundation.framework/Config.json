@@ -1,0 +1,285 @@
+{
+    "pages": [
+        {
+            "id": 1273,
+            "ordering": 2,
+            "widgets": [
+                {
+                    "id": 1,
+                    "ordering": null,
+                    "type": "sample_widget_key",
+                    "tile": {
+                        "type": "basic",
+                        "size": {
+                            "row": 4,
+                            "col": 4,
+                            "previewImage": ""
+                        }
+                    },
+                    "configValues": [
+                        {
+                            "key": "icon",
+                            "value": "https://imagehub.endios.one/Buxtuell/58/icon/Information_i.png"
+                        },
+                        {
+                            "key": "tileTitle",
+                            "value": "Test Widget"
+                        },
+                        {
+                            "key": "title",
+                            "value": "Test Widget Title"
+                        }
+                    ],
+                    "size": {
+                        "row": 4,
+                        "col": 4,
+                        "previewImage": "https://endiosonetest.s3.eu-central-1.amazonaws.com/Widgets/Webview/Store/Tiles/basic%404x.jpg"
+                    },
+                    "position": {
+                        "row": 0,
+                        "col": 0
+                    }
+                }
+            ],
+            "name": "First page",
+            "icon": "https://www.endios.de/endiosOne/img/haus.png",
+            "timestampFrom": 0,
+            "timestampTo": null,
+            "overlays": null
+        }
+    ],
+    "versions": null,
+    "style": {
+        "backgroundImageURL": "",
+        "shadowColor": "#ff006eb7",
+        "backgroundColors": [
+            "#000203",
+            "#1b4d61"
+        ],
+        "primaryColor": "#de532f",
+        "secondaryColor": "#dc6b19",
+        "tertiaryColor": "#155f5f",
+        "navBarBackgroundColor": "#000000",
+        "border": {
+            "color": "#000000",
+            "width": 1
+        },
+        "cornerRadius": 9,
+        "backgroundMedia": {
+            "id": 297,
+            "url": "",
+            "mediaType": "VIDEO"
+        },
+        "texts": [
+            {
+                "type": "body",
+                "font": {
+                    "type": "regular",
+                    "name": "Nunito-Regular",
+                    "applicationId": 1
+                },
+                "size": 16,
+                "color": "#51d217",
+                "letterSpacing": 0,
+                "linesSpacing": 16,
+                "margin": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                }
+            },
+            {
+                "type": "note",
+                "font": {
+                    "type": "regular",
+                    "name": "Nunito-Regular",
+                    "applicationId": 1
+                },
+                "size": 14,
+                "color": "#0dd7df",
+                "letterSpacing": 0,
+                "linesSpacing": 14,
+                "margin": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                }
+            },
+            {
+                "type": "headline4",
+                "font": {
+                    "type": "regular",
+                    "name": "Nunito-Regular",
+                    "applicationId": 1
+                },
+                "size": 18,
+                "color": "#df1614",
+                "letterSpacing": 1,
+                "linesSpacing": 18,
+                "margin": {
+                    "top": 1,
+                    "right": 2,
+                    "bottom": 1,
+                    "left": 2
+                }
+            },
+            {
+                "type": "subline1",
+                "font": {
+                    "type": "bold",
+                    "name": "Nunito-Bold",
+                    "applicationId": 1
+                },
+                "size": 16,
+                "color": "#e7900e",
+                "letterSpacing": 0,
+                "linesSpacing": 16,
+                "margin": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 1
+                }
+            },
+            {
+                "type": "headline3",
+                "font": {
+                    "type": "bold",
+                    "name": "Nunito-Bold",
+                    "applicationId": 1
+                },
+                "size": 18,
+                "color": "#c326c8",
+                "letterSpacing": 0,
+                "linesSpacing": 18,
+                "margin": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                }
+            },
+            {
+                "type": "subline2",
+                "font": {
+                    "type": "regular",
+                    "name": "Nunito-Regular",
+                    "applicationId": 1
+                },
+                "size": 14,
+                "color": "#d3d713",
+                "letterSpacing": 0,
+                "linesSpacing": 14,
+                "margin": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                }
+            },
+            {
+                "type": "headline1",
+                "font": {
+                    "type": "black",
+                    "name": "Nunito-Black",
+                    "applicationId": 1
+                },
+                "size": 36,
+                "color": "#ffffff",
+                "letterSpacing": 9,
+                "linesSpacing": 36,
+                "margin": {
+                    "top": 15,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                }
+            },
+            {
+                "type": "headline2",
+                "font": {
+                    "type": "bold",
+                    "name": "Nunito-Bold",
+                    "applicationId": 1
+                },
+                "size": 24,
+                "color": "#3a2be2",
+                "letterSpacing": 0,
+                "linesSpacing": 24,
+                "margin": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                }
+            }
+        ],
+        "tile": {
+            "spacing": 14,
+            "border": {
+                "color": "#f8f8f8",
+                "width": 3
+            },
+            "backgroundColors": [
+                "#4f0bdbdb",
+                "#6f0c6e6e"
+            ]
+        },
+        "tabBar": {
+            "font": {
+                "type": "regular",
+                "name": "Nunito-Regular",
+                "applicationId": 1
+            },
+            "size": 14,
+            "color": "#000000",
+            "activeColor": "#2f80de",
+            "inactiveColor": "#ffffff",
+            "backgroundColors": [
+                "#000000"
+            ]
+        }
+    },
+    "analytics": false,
+    "login": {
+        "available": false,
+        "type": "INTERNAL",
+        "subType": "NONE",
+        "fields": [
+        ],
+        "config": {
+            "id": 2,
+            "title": "Welcome to the login",
+            "subTitle": "Here you can login to the endios one platform",
+            "registerButtonText": "Register",
+            "buttonText": "Login",
+            "passwordForgotButtonText": "Forgot Password",
+            "navBarTitle": "Login",
+            "showPasswordForgot": true
+        }
+    },
+    "register": {
+        "available": false,
+        "type": "INTERNAL",
+        "subType": "NONE",
+        "fields": [
+        ],
+        "config": {
+            "id": 2,
+            "title": "Registration",
+            "subTitle": "Register here and get nice advantages",
+            "showDataSecurity": true,
+            "dataSecurityText": "Data security",
+            "dataSecurityUrl": "https://www.endios.de",
+            "dataSecurityAcceptanceText": "I accept the data security terms",
+            "buttonText": "Register",
+            "navBarTitle": "Registration"
+        }
+    },
+    "coordinate": {
+        "latitude": "52.4992591",
+        "longitude": "13.3123016"
+    }
+}
