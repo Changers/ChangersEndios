@@ -1,13 +1,13 @@
 import UIKit
 import EOFoundation
-import TestWidget
+import WidgetChangers
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        WidgetsManager.shared.register(widget: widget())
+        WidgetsManager.shared.register(widget: changersWidget())
         
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
