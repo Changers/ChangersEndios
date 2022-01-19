@@ -15,7 +15,6 @@ public class ChangersWidgetCellType: WidgetCollectionCellType, ChangersStatistic
     lazy var changersEndiosAdapter = ChangersEndiosAdapter()
 
     
-    
     public func setup(with widget: WidgetModel) {
         super.setup(widget: widget)
     }

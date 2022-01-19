@@ -6,7 +6,7 @@ struct ChangersWidgetPresentationProvider: WidgetPresentationProvider {
         return Changers.webApp()
     }
     
-    var navigationType: ControllerNavigationType { .modal }
+    var navigationType: ControllerNavigationType { .push }
 }
 
 public func changersWidget() -> WidgetContainer {
