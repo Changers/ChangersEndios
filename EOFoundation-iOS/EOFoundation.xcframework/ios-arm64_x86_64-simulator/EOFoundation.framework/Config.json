@@ -39,6 +39,114 @@
                         "row": 0,
                         "col": 0
                     }
+                },
+                {
+                    "id": 1,
+                    "ordering": null,
+                    "type": "sample_widget_key_2",
+                    "tile": {
+                        "type": "basic",
+                        "size": {
+                            "row": 4,
+                            "col": 4,
+                            "previewImage": ""
+                        }
+                    },
+                    "configValues": [
+                        {
+                            "key": "icon",
+                            "value": "https://imagehub.endios.one/Buxtuell/58/icon/Information_i.png"
+                        },
+                        {
+                            "key": "tileTitle",
+                            "value": "Marketplace"
+                        },
+                        {
+                            "key": "title",
+                            "value": "Test Widget Title"
+                        }
+                    ],
+                    "size": {
+                        "row": 4,
+                        "col": 4,
+                        "previewImage": "https://endiosonetest.s3.eu-central-1.amazonaws.com/Widgets/Webview/Store/Tiles/basic%404x.jpg"
+                    },
+                    "position": {
+                        "row": 8,
+                        "col": 8
+                    }
+                },
+                {
+                    "id": 1,
+                    "ordering": null,
+                    "type": "sample_widget_key_tree",
+                    "tile": {
+                        "type": "basic",
+                        "size": {
+                            "row": 4,
+                            "col": 8,
+                            "previewImage": ""
+                        }
+                    },
+                    "configValues": [
+                    ],
+                    "size": {
+                        "row": 8,
+                        "col": 8,
+                        "previewImage": "https://endiosonetest.s3.eu-central-1.amazonaws.com/Widgets/Webview/Store/Tiles/basic%404x.jpg"
+                    },
+                    "position": {
+                        "row": 4,
+                        "col": 4
+                    }
+                },
+                {
+                    "id": 1,
+                    "ordering": null,
+                    "type": "sample_widget_key_statistic",
+                    "tile": {
+                        "type": "basic",
+                        "size": {
+                            "row": 4,
+                            "col": 12,
+                            "previewImage": ""
+                        }
+                    },
+                    "configValues": [
+                    ],
+                    "size": {
+                        "row": 12,
+                        "col": 12,
+                        "previewImage": "https://endiosonetest.s3.eu-central-1.amazonaws.com/Widgets/Webview/Store/Tiles/basic%404x.jpg"
+                    },
+                    "position": {
+                        "row": 12,
+                        "col": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "ordering": null,
+                    "type": "sample_widget_key_climate_coin",
+                    "tile": {
+                        "type": "basic",
+                        "size": {
+                            "row": 8,
+                            "col": 8,
+                            "previewImage": ""
+                        }
+                    },
+                    "configValues": [
+                    ],
+                    "size": {
+                        "row": 12,
+                        "col": 12,
+                        "previewImage": "https://endiosonetest.s3.eu-central-1.amazonaws.com/Widgets/Webview/Store/Tiles/basic%404x.jpg"
+                    },
+                    "position": {
+                        "row": 16,
+                        "col": 4
+                    }
                 }
             ],
             "name": "First page",
@@ -51,17 +159,16 @@
     "versions": null,
     "style": {
         "backgroundImageURL": "",
-        "shadowColor": "#ff006eb7",
+        "shadowColor": "",
         "backgroundColors": [
-            "#000203",
-            "#1b4d61"
+            "",
         ],
-        "primaryColor": "#de532f",
-        "secondaryColor": "#dc6b19",
-        "tertiaryColor": "#155f5f",
-        "navBarBackgroundColor": "#000000",
+        "primaryColor": "#3c3c3c",
+        "secondaryColor": "#3c3c3c",
+        "tertiaryColor": "#3c3c3c",
+        "navBarBackgroundColor": "#ffffffff",
         "border": {
-            "color": "#000000",
+            "color": "#ffffffff",
             "width": 1
         },
         "cornerRadius": 9,
@@ -79,7 +186,7 @@
                     "applicationId": 1
                 },
                 "size": 16,
-                "color": "#51d217",
+                "color": "#ffffff",
                 "letterSpacing": 0,
                 "linesSpacing": 16,
                 "margin": {
@@ -97,7 +204,7 @@
                     "applicationId": 1
                 },
                 "size": 14,
-                "color": "#0dd7df",
+                "color": "#ffffff",
                 "letterSpacing": 0,
                 "linesSpacing": 14,
                 "margin": {
@@ -115,7 +222,7 @@
                     "applicationId": 1
                 },
                 "size": 18,
-                "color": "#df1614",
+                "color": "#ffffff",
                 "letterSpacing": 1,
                 "linesSpacing": 18,
                 "margin": {
@@ -133,7 +240,7 @@
                     "applicationId": 1
                 },
                 "size": 16,
-                "color": "#e7900e",
+                "color": "#ffffff",
                 "letterSpacing": 0,
                 "linesSpacing": 16,
                 "margin": {
@@ -151,7 +258,7 @@
                     "applicationId": 1
                 },
                 "size": 18,
-                "color": "#c326c8",
+                "color": "#ffffff",
                 "letterSpacing": 0,
                 "linesSpacing": 18,
                 "margin": {
@@ -169,7 +276,7 @@
                     "applicationId": 1
                 },
                 "size": 14,
-                "color": "#d3d713",
+                "color": "#ffffff",
                 "letterSpacing": 0,
                 "linesSpacing": 14,
                 "margin": {
@@ -205,7 +312,7 @@
                     "applicationId": 1
                 },
                 "size": 24,
-                "color": "#3a2be2",
+                "color": "#ffffff",
                 "letterSpacing": 0,
                 "linesSpacing": 24,
                 "margin": {
@@ -219,12 +326,12 @@
         "tile": {
             "spacing": 14,
             "border": {
-                "color": "#f8f8f8",
-                "width": 3
+                "color": "#ffffff",
+                "width": 0
             },
             "backgroundColors": [
-                "#4f0bdbdb",
-                "#6f0c6e6e"
+                "#4f0bdbff",
+                "#6f0c6eff"
             ]
         },
         "tabBar": {
@@ -234,8 +341,8 @@
                 "applicationId": 1
             },
             "size": 14,
-            "color": "#000000",
-            "activeColor": "#2f80de",
+            "color": "#ffffff",
+            "activeColor": "#ffffff",
             "inactiveColor": "#ffffff",
             "backgroundColors": [
                 "#000000"

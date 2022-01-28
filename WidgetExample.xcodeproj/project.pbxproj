@@ -12,6 +12,16 @@
 		457D8778258137A800FF69A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457D8777258137A800FF69A1 /* SceneDelegate.swift */; };
 		457D877F258137A800FF69A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 457D877E258137A800FF69A1 /* Assets.xcassets */; };
 		457D8782258137A800FF69A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 457D8780258137A800FF69A1 /* LaunchScreen.storyboard */; };
+		E49B910A27A0A6EF00C31672 /* ChangersWidgetCellMarketplace.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49B910927A0A6EF00C31672 /* ChangersWidgetCellMarketplace.swift */; };
+		E49B910F27A0A77200C31672 /* ChangersWidgetTreeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49B910D27A0A77200C31672 /* ChangersWidgetTreeCell.swift */; };
+		E49B911027A0A77200C31672 /* ChangersWidgetTreeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E49B910E27A0A77200C31672 /* ChangersWidgetTreeCell.xib */; };
+		E49B911227A0A7C500C31672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49B911127A0A7C100C31672 /* Assets.xcassets */; };
+		E49B911427A1DDBC00C31672 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49B911327A1DDBC00C31672 /* Double+Extension.swift */; };
+		E49B911727A1E4D000C31672 /* ChangersWidgetStatisticCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49B911527A1E4CF00C31672 /* ChangersWidgetStatisticCollectionViewCell.swift */; };
+		E49B911827A1E4D000C31672 /* ChangersWidgetStatisticCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E49B911627A1E4CF00C31672 /* ChangersWidgetStatisticCollectionViewCell.xib */; };
+		E49B911A27A1E72200C31672 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49B911927A1E72200C31672 /* Date+Extension.swift */; };
+		E49B911D27A1EDC500C31672 /* ChangersWidgetClimateCoinCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49B911B27A1EDC500C31672 /* ChangersWidgetClimateCoinCollectionViewCell.swift */; };
+		E49B911E27A1EDC500C31672 /* ChangersWidgetClimateCoinCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E49B911C27A1EDC500C31672 /* ChangersWidgetClimateCoinCollectionViewCell.xib */; };
 		E4A9CEA32790AF7000D9EF31 /* WidgetChangers.docc in Sources */ = {isa = PBXBuildFile; fileRef = E4A9CEA22790AF7000D9EF31 /* WidgetChangers.docc */; };
 		E4A9CEA42790AF7000D9EF31 /* WidgetChangers.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A9CEA12790AF7000D9EF31 /* WidgetChangers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4A9CEA72790AF7000D9EF31 /* WidgetChangers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A9CE9F2790AF7000D9EF31 /* WidgetChangers.framework */; };
@@ -72,6 +82,16 @@
 		457D877E258137A800FF69A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		457D8781258137A800FF69A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		457D8783258137A800FF69A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E49B910927A0A6EF00C31672 /* ChangersWidgetCellMarketplace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangersWidgetCellMarketplace.swift; sourceTree = "<group>"; };
+		E49B910D27A0A77200C31672 /* ChangersWidgetTreeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangersWidgetTreeCell.swift; sourceTree = "<group>"; };
+		E49B910E27A0A77200C31672 /* ChangersWidgetTreeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangersWidgetTreeCell.xib; sourceTree = "<group>"; };
+		E49B911127A0A7C100C31672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E49B911327A1DDBC00C31672 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		E49B911527A1E4CF00C31672 /* ChangersWidgetStatisticCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangersWidgetStatisticCollectionViewCell.swift; sourceTree = "<group>"; };
+		E49B911627A1E4CF00C31672 /* ChangersWidgetStatisticCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangersWidgetStatisticCollectionViewCell.xib; sourceTree = "<group>"; };
+		E49B911927A1E72200C31672 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		E49B911B27A1EDC500C31672 /* ChangersWidgetClimateCoinCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangersWidgetClimateCoinCollectionViewCell.swift; sourceTree = "<group>"; };
+		E49B911C27A1EDC500C31672 /* ChangersWidgetClimateCoinCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangersWidgetClimateCoinCollectionViewCell.xib; sourceTree = "<group>"; };
 		E4A9CE9F2790AF7000D9EF31 /* WidgetChangers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WidgetChangers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A9CEA12790AF7000D9EF31 /* WidgetChangers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WidgetChangers.h; sourceTree = "<group>"; };
 		E4A9CEA22790AF7000D9EF31 /* WidgetChangers.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = WidgetChangers.docc; sourceTree = "<group>"; };
@@ -155,6 +175,7 @@
 		E4A9CEA02790AF7000D9EF31 /* WidgetChangers */ = {
 			isa = PBXGroup;
 			children = (
+				E49B911127A0A7C100C31672 /* Assets.xcassets */,
 				E4A9CEB52790B00900D9EF31 /* Main.swift */,
 				E4DF25752790B40300E54DAF /* Changers */,
 				E4A9CEAF2790AFD300D9EF31 /* Tile */,
@@ -168,7 +189,14 @@
 		E4A9CEAF2790AFD300D9EF31 /* Tile */ = {
 			isa = PBXGroup;
 			children = (
+				E49B910927A0A6EF00C31672 /* ChangersWidgetCellMarketplace.swift */,
 				E4A9CEB02790AFD300D9EF31 /* ChangersWidgetCellType.swift */,
+				E49B910D27A0A77200C31672 /* ChangersWidgetTreeCell.swift */,
+				E49B910E27A0A77200C31672 /* ChangersWidgetTreeCell.xib */,
+				E49B911527A1E4CF00C31672 /* ChangersWidgetStatisticCollectionViewCell.swift */,
+				E49B911627A1E4CF00C31672 /* ChangersWidgetStatisticCollectionViewCell.xib */,
+				E49B911B27A1EDC500C31672 /* ChangersWidgetClimateCoinCollectionViewCell.swift */,
+				E49B911C27A1EDC500C31672 /* ChangersWidgetClimateCoinCollectionViewCell.xib */,
 			);
 			path = Tile;
 			sourceTree = "<group>";
@@ -186,6 +214,8 @@
 			children = (
 				E4DF25762790B40300E54DAF /* ChangersHelper.swift */,
 				E4DF25772790B40300E54DAF /* ChangersController.swift */,
+				E49B911327A1DDBC00C31672 /* Double+Extension.swift */,
+				E49B911927A1E72200C31672 /* Date+Extension.swift */,
 			);
 			path = Changers;
 			sourceTree = "<group>";
@@ -293,6 +323,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E49B911227A0A7C500C31672 /* Assets.xcassets in Resources */,
+				E49B911027A0A77200C31672 /* ChangersWidgetTreeCell.xib in Resources */,
+				E49B911E27A1EDC500C31672 /* ChangersWidgetClimateCoinCollectionViewCell.xib in Resources */,
+				E49B911827A1E4D000C31672 /* ChangersWidgetStatisticCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,12 +347,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E49B910A27A0A6EF00C31672 /* ChangersWidgetCellMarketplace.swift in Sources */,
+				E49B910F27A0A77200C31672 /* ChangersWidgetTreeCell.swift in Sources */,
 				E4DF25792790B40300E54DAF /* ChangersController.swift in Sources */,
+				E49B911D27A1EDC500C31672 /* ChangersWidgetClimateCoinCollectionViewCell.swift in Sources */,
 				E4A9CEB32790AFD300D9EF31 /* ChangersWidgetViewControllerType.swift in Sources */,
 				E4A9CEB42790AFD300D9EF31 /* ChangersWidgetCellType.swift in Sources */,
+				E49B911A27A1E72200C31672 /* Date+Extension.swift in Sources */,
+				E49B911727A1E4D000C31672 /* ChangersWidgetStatisticCollectionViewCell.swift in Sources */,
 				E4A9CEB62790B00900D9EF31 /* Main.swift in Sources */,
 				E4DF25892790B6D500E54DAF /* AppDelegate.swift in Sources */,
 				E4A9CEA32790AF7000D9EF31 /* WidgetChangers.docc in Sources */,
+				E49B911427A1DDBC00C31672 /* Double+Extension.swift in Sources */,
 				E4DF25782790B40300E54DAF /* ChangersHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

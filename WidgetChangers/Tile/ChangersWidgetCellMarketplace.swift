@@ -1,11 +1,10 @@
 import EOFoundation
 import ChangersSDK
-import UIKit
 ///
 /// Please note that the structure of WidgetCollectionCellType has changed
 ///
 
-public class ChangersWidgetCellType: WidgetCollectionCellType, ChangersStatisticDelegate {
+public class ChangersWidgetMarketplaceCellType: WidgetCollectionCellType, ChangersStatisticDelegate {
     
 //    @IBOutlet weak var currentLabel: UILabel!
 //    @IBOutlet weak var missingLabel: UILabel!
@@ -18,15 +17,6 @@ public class ChangersWidgetCellType: WidgetCollectionCellType, ChangersStatistic
     
     public func setup(with widget: WidgetModel) {
         super.setup(widget: widget)
-        let imageView = UIImageView()
-        imageView.image = UIImage(named: "test_image")
-        imageView.backgroundColor = UIColor.red
-        imageView.contentMode = .scaleAspectFit
-        add(subview: imageView)
-            .height(equalTo: 50)
-            .width(equalTo: 50)
-            .centerX(equalTo: self, constant: 0)
-            .centerY(equalTo: self, constant: 0)
     }
     
     public func willBeDisplayed() {
